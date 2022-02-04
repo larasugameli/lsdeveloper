@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+  .about-me {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+.about-me__img {
+  margin: 5rem;
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  /*   animation: myAnim 1s ease 0s 1 normal forwards;
+ */
+}
+
+.about-me__text {
+  padding: 0 0.8rem;
+}
