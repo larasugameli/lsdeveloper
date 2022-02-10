@@ -1,5 +1,5 @@
-@use "base/variables" as v;
-@use "base/mixins" as m;
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
 
 .contact-me {
   background-image: url(./imagenes/wepik-20211121-16457.jpeg);
@@ -8,15 +8,15 @@
   background-repeat: no-repeat;
 }
 
-.form__text {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
 .form {
-  background-color: white;
+  background-color: v.$colorPrimario;
   margin: -25rem auto 0 auto;
   width: 95%;
   padding: 5rem;
+  .form__text {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
 }
 
 .camp {
@@ -24,24 +24,22 @@
   margin-bottom: 2rem;
   text-align: right;
   gap: 1.5rem;
+  .camp__label {
+    flex: 0 0 9rem;
+    padding-right: 1.5rem;
+  }
+  .camp__field {
+    flex: 1;
+    border: 1px solid #757575;
+    .camp__field--textarea {
+      height: 15rem;
+    }
+  }
 }
 
-.camp__label {
-  flex: 0 0 9rem;
-  padding-right: 1.5rem;
-}
-
-.camp__field {
-  flex: 1;
-  border: 1px solid #757575;
-}
-
-.camp__field--textarea {
-  height: 15rem;
-}
 .button {
   display: block;
-  color: white;
+  color: v.$colorPrimario;
   text-align: center;
   padding: 1rem 3rem;
   font-size: 1.8rem;
@@ -49,15 +47,13 @@
   font-weight: 700;
   margin-bottom: 2rem;
   border: none;
-}
-
-.button:hover {
-  cursor: pointer;
-  background-color: #000;
-}
-
-.button--first {
-  background-color: #757575;
+  &:hover {
+    cursor: pointer;
+    background-color: #000;
+  }
+  .button--first {
+    background-color: #757575;
+  }
 }
 
 .info__contact {

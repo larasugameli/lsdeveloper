@@ -1,5 +1,5 @@
-@use "base/variables" as v;
-@use "base/mixins" as m;
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
 
 /*Footer*/
 
@@ -13,7 +13,7 @@ footer ul li a:hover {
 
 .foot {
   justify-content: space-between;
-  background-color: white;
+  background-color: v.$colorPrimario;
   margin-top: 5rem;
 }
 
@@ -24,7 +24,4 @@ footer ul li a:hover {
   color: #000;
   text-decoration: none;
   margin-top: 0 auto;
-}
-.foot__text {
-  text-align: center;
 }

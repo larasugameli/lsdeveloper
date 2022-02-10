@@ -1,5 +1,5 @@
-@use "base/variables" as v;
-@use "base/mixins" as m;
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
 
 .header {
   background-color: black;
@@ -13,10 +13,10 @@
   font-size: 4.8rem;
   text-transform: uppercase;
   font-weight: bold;
-  color: #fff;
+  color: v.$colorPrimario;
   width: 10rem;
   height: 10rem;
-  border: white 0.4rem solid;
+  border: v.$colorPrimario 0.4rem solid;
   margin: 0rem;
 }
 h2 {
