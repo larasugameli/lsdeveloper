@@ -1,10 +1,2 @@
-@import "./base/variables";
-@import "./base/globales";
-@import "./paginas/aboutme";
-@import "./paginas/contactme";
-@import "./paginas/portfolio";
-@import "./paginas/services";
-@import "./paginas/index";
-@import "./paginas/header";
-@import "./base/mixins";
-@import "./paginas/footer";
+@use "base";
+@use "paginas";

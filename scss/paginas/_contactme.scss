@@ -1,3 +1,6 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
 .contact-me {
   background-image: url(./imagenes/wepik-20211121-16457.jpeg);
   height: 40rem;
