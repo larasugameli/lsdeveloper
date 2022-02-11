@@ -8,7 +8,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-  color: #757575;
+  color: v.$colorTerciario;
 }
 
 .foot {
@@ -21,7 +21,7 @@ footer ul li a:hover {
   text-align: center;
 }
 .foot__bar {
-  color: #000;
+  color: v.$colorSecundario;
   text-decoration: none;
   margin-top: 0 auto;
 }

@@ -36,13 +36,13 @@ p {
   cursor: pointer;
   outline: none;
   &:hover {
-    background-color: #757575;
+    background-color: v.$colorTerciario;
     box-shadow: 0px 15px 20px rgb(133, 115, 115) (46, 229, 157, 0.4);
     transform: translateY(-7px);
     cursor: pointer;
   }
   .contactbutton__text {
-    color: black;
+    color: v.$colorSecundario;
     font-weight: 500;
     font-size: 2rem;
     font-family: v.$fuente_principal;

@@ -2,7 +2,7 @@
 @use "../base/mixins" as m;
 
 .contact-me {
-  background-image: url(./imagenes/wepik-20211121-16457.jpeg);
+  background-image: url(../../../imagenes/wepik-20211121-16457.jpeg);
   height: 40rem;
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@
   }
   .camp__field {
     flex: 1;
-    border: 1px solid #757575;
+    border: 1px solid v.$colorTerciario;
     .camp__field--textarea {
       height: 15rem;
     }
@@ -47,22 +47,23 @@
   font-weight: 700;
   margin-bottom: 2rem;
   border: none;
+  background-color: v.$colorTerciario;
   &:hover {
     cursor: pointer;
-    background-color: #000;
+    background-color: v.$colorSecundario;
   }
   .button--first {
-    background-color: #757575;
+    background-color: v.$colorTerciario;
   }
 }
 
 .info__contact {
-  background-color: #e4e4e4;
+  background-color: v.$colorCuarto;
   padding: 2rem;
-  color: #000;
+  color: v.$colorSecundario;
   font-weight: 700;
 }
 
 input:focus {
-  background-color: #e4e4e4;
+  background-color: v.$colorCuarto;
 }

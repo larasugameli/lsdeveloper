@@ -44,9 +44,9 @@
   font-weight: bolder;
   text-transform: uppercase;
   border: none;
-  background-color: #757575;
+  background-color: v.$colorTerciario;
   &:hover {
-    color: #000;
+    color: v.$colorSecundario;
   }
 }
 
