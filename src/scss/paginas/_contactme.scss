@@ -15,7 +15,7 @@
   padding: 5rem;
   .form__text {
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: map-get(v.$font-weights, bold);
   }
 }
 
@@ -44,7 +44,7 @@
   padding: 1rem 3rem;
   font-size: 1.8rem;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: map-get(v.$font-weights, bold);
   margin-bottom: 2rem;
   border: none;
   background-color: v.$colorTerciario;
@@ -61,7 +61,7 @@
   background-color: v.$colorCuarto;
   padding: 2rem;
   color: v.$colorSecundario;
-  font-weight: 700;
+  font-weight: map-get(v.$font-weights, bold);
 }
 
 input:focus {

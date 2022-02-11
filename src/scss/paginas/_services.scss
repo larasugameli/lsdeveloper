@@ -1,11 +1,9 @@
 @use "../base/variables" as v;
 @use "../base/mixins" as m;
 
-@media (min-width: 768px) {
+@include m.desktop {
   .servicios {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 1rem;
+    @include m.grid(3, 1rem);
     text-align: center;
   }
 }
@@ -27,7 +25,7 @@
 
 .servicio h3 {
   color: v.$colorTerciario;
-  font-weight: bold;
+  font-weight: map-get(v.$font-weights, medium);
   margin: 1rem;
 }
 

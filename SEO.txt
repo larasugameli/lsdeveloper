@@ -1,0 +1,11 @@
+SEO
+
+Agregue:
+Description en cada HTML
+Keywords en cada HTML
+Titulo en cada HTML
+Sidemap XML
+
+Hice un extend para display block con margin 0.
+Mixin para media querys y grids
+Mapa para las font-weights

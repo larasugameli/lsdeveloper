@@ -22,11 +22,14 @@ $desktopXL: 1200px;
 each
 */
 
-/* $colores: (
-  primario: red,
-  secundario: blue,
-  bg: black,
-  hover-primario: darken(red, 20),
-  hover-secundario: lightner(blue, 20),
+$font-weights: (
+  "regular": 400,
+  "medium": 500,
+  "bold": 700,
 );
- */
+
+/*Extends */
+%displayBlock {
+  display: block;
+  margin: 0 auto;
+}

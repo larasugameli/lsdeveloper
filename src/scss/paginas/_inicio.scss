@@ -10,12 +10,11 @@
   background-image: url(/imagenes/wepik-20211121-1699.png);
   .webbody__tittle {
     color: v.$colorPrimario;
-    display: block;
-    margin: 0 auto;
+    @extend %displayBlock;
     padding-top: 15rem;
     padding-bottom: 7rem;
     line-height: 10rem;
-    font-weight: bolder;
+    font-weight: map-get(v.$font-weights, medium);
     font-size: 8rem;
   }
 }
@@ -43,7 +42,7 @@ p {
   }
   .contactbutton__text {
     color: v.$colorSecundario;
-    font-weight: 500;
+    font-weight: map-get(v.$font-weights, medium);
     font-size: 2rem;
     font-family: v.$fuente_principal;
     &:hover {
@@ -52,7 +51,7 @@ p {
   }
 }
 
-@media (min-width: 768px) {
+@include m.desktop {
   .webbody__tittle {
     display: block;
     margin: 0 auto;

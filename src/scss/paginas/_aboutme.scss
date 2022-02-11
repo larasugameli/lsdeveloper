@@ -1,7 +1,7 @@
 @use "../base/variables" as v;
 @use "../base/mixins" as m;
 
-@media (min-width: 768px) {
+@include m.desktop {
   .about-me {
     display: flex;
     align-items: center;
@@ -12,8 +12,7 @@
 .about-me__img {
   margin: 5rem;
   max-width: 90%;
-  display: block;
-  margin: 0 auto;
+  @extend %displayBlock;
   border-radius: 50%;
   filter: grayscale(100%);
   /*   animation: myAnim 1s ease 0s 1 normal forwards;
