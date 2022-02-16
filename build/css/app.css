@@ -648,7 +648,7 @@ li {
   height: 60rem;
   text-align: center;
   color: white;
-  background-image: url(/imagenes/wepik-20211121-1699.png);
+  background: linear-gradient(to right, rgba(27, 27, 27, 0), #918989), url(/imagenes/wepik-20211121-1699.png);
 }
 .webbody .webbody__tittle {
   color: white;
