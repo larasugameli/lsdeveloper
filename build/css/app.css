@@ -465,6 +465,22 @@ template {
   padding: 0 0.8rem;
 }
 
+.btn-suscribe {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+  border: none;
+  padding: 0.4rem 1.5rem;
+  background-color: #757575;
+}
+.btn-suscribe:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
 .contact-me {
   background-image: url(../../../imagenes/wepik-20211121-16457.jpeg);
   height: 40rem;

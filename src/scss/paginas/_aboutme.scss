@@ -22,3 +22,19 @@
 .about-me__text {
   padding: 0 0.8rem;
 }
+
+.btn-suscribe {
+  display: block;
+  color: v.$colorPrimario;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+  border: none;
+  padding: 0.4rem 1.5rem;
+  background-color: v.$colorTerciario;
+  &:hover {
+    cursor: pointer;
+    background-color: v.$colorSecundario;
+  }
+}
